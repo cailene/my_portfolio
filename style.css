@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #454545;
+    text-decoration: none;
+}
+
+header{
+    padding: 30px 10%;
+    /* background-color: #24252A; */
+    /* color: #fff; */
+}
+
+.nav__links{
+    list-style-type: none;
+    /* setting main axis, which is horizontal, can change this with flex-direction. default is row. */
+    display: flex; 
+    /* justify-content: space-between; */
+    /* aligning items on the main content */
+    justify-content: flex-end;
+    /* aligning items on the cross axis, vertical */
+    align-items: center;
+}
+
+.nav__links li{
+    display: inline-block;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+    padding: 10px 20px;
+}
+
+.nav__links li a:hover{
+    background-color: #6e7070;
+}
+
+.header__text{
+    margin-top: 20%;
+    font-size: 30px;  
+}
+
+.header__text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
