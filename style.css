@@ -32,13 +32,35 @@ header{
     display: inline-block;
 }
 
-.nav__links li a{
+/* .nav__links li a{
     transition: all 0.3s ease 0s;
     padding: 10px 20px;
+    position: relative;
+} */
+
+/* .nav__links li a:hover{
+    background-color: #6e7070;
+} */
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    padding: 10px 20px;
+    position: relative; /* Add this line */
 }
 
-.nav__links li a:hover{
-    background-color: #6e7070;
+.nav__links li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #454545;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transition: width 0.3s;
+}
+
+.nav__links li a:hover::after {
+    width: 100%;
 }
 
 .header__text{
