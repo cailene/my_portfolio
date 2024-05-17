@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
 li, a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -11,7 +15,7 @@ li, a{
     text-decoration: none;
 }
 
-header{
+#about{
     padding: 30px 10%;
     /* background-color: #24252A; */
     /* color: #fff; */
@@ -27,7 +31,6 @@ header{
     /* aligning items on the cross axis, vertical */
     align-items: center;
 }
-
 .nav__links li{
     display: inline-block;
 }
@@ -47,7 +50,6 @@ header{
     padding: 10px 20px;
     position: relative; /* Add this line */
 }
-
 .nav__links li a::after {
     content: '';
     width: 0;
@@ -58,17 +60,40 @@ header{
     bottom: -4px;
     transition: width 0.3s;
 }
-
 .nav__links li a:hover::after {
     width: 100%;
 }
-
 .header__text{
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 30px;  
 }
-
 .header__text h1{
     font-size: 60px;
     margin-top: 20px;
+}
+
+#portfolio{
+    padding: 80px 20px;
+}
+.work__list{
+    flex-direction:column;
+    display: flex;
+    align-content: space-between;
+}
+.work{
+    margin: 10px 0;
+    background-color: #454545;
+}
+.work__list img{
+    width: 250px;
+    height: 350px;
+    margin-right: 15px;
+    float: left;
+}
+.work__list h2{
+    padding-top: 20px;
+    font-size: 24px;
+}
+.work__list p{
+    font-size: 16px;
 }
