@@ -103,6 +103,10 @@ li, a{
     height: 350px;
     margin-right: 15px;
     float: left;
+    transition: transform 0.5s;
+}
+.work__list img:hover{
+    transform: translateY(-10px);
 }
 .work__list h2{
     padding-top: 20px;
