@@ -2,7 +2,7 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0 5px;
     box-sizing: border-box;
 }
 body{
@@ -11,15 +11,14 @@ body{
     color: black;
 }
 li, a{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
     color: #454545;
     text-decoration: none;
 }
 
+
 /* -----------about---------- */
 #about{
-    padding: 30px 10%;
+    padding: 30px 0;
     /* background-color: #24252A; */
     /* color: #fff; */
 }
@@ -73,21 +72,30 @@ li, a{
     font-size: 60px;
     margin-top: 20px;
 }
+.header__text h4{
+    font-weight: 400;
+}
+.header__text p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/* icons */
 .header__text a{
-    margin-top: 20px;
     color:cadetblue;
     text-decoration: none;
     font-size: 30px;
-    /* background: #454545;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    text-align: center; */
+}
+#resume__button{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    bottom: 5px;
 }
 
 /* ----------portfolio--------- */
 #portfolio{
-    padding: 80px 20px;
+    padding: 40px 0;
 }
 .work__list{
     flex-direction:column;
@@ -96,7 +104,7 @@ li, a{
 }
 .work{
     margin: 10px 0;
-    background-color: #454545;
+    /* background-color: #454545; */
 }
 .work__list img{
     width: 250px;
@@ -114,4 +122,39 @@ li, a{
 }
 .work__list p{
     font-size: 16px;
+}
+
+/* ------------contact----------- */
+#contact{
+    padding: 20px 10%;
+    margin-bottom: 80px;
+}
+
+.links {
+    text-align: center;
+}
+
+.links h2 {
+    margin-bottom: 20px;
+}
+
+/* icons */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container a {
+    margin: 0 10px;
+    color:cadetblue;
+}
+
+/* --------footer-----------*/
+footer {
+    /* color: #fff; */
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
