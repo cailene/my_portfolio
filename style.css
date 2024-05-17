@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: black;
 }
@@ -15,6 +17,7 @@ li, a{
     text-decoration: none;
 }
 
+/* -----------about---------- */
 #about{
     padding: 30px 10%;
     /* background-color: #24252A; */
@@ -39,9 +42,8 @@ li, a{
     transition: all 0.3s ease 0s;
     padding: 10px 20px;
     position: relative;
-} */
-
-/* .nav__links li a:hover{
+} 
+.nav__links li a:hover{
     background-color: #6e7070;
 } */
 
@@ -71,7 +73,19 @@ li, a{
     font-size: 60px;
     margin-top: 20px;
 }
+.header__text a{
+    margin-top: 20px;
+    color:cadetblue;
+    text-decoration: none;
+    font-size: 30px;
+    /* background: #454545;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center; */
+}
 
+/* ----------portfolio--------- */
 #portfolio{
     padding: 80px 20px;
 }
