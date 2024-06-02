@@ -2,13 +2,14 @@
 
 * {
     margin: 0;
-    padding: 0 5px;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: black;
+    padding: 150px 180px 0 180px;
 }
 li, a{
     color: #454545;
@@ -18,7 +19,7 @@ li, a{
 
 /* -----------about---------- */
 #about{
-    padding: 30px 0;
+    padding: 20px 0;
     /* background-color: #24252A; */
     /* color: #fff; */
 }
@@ -65,7 +66,7 @@ li, a{
     width: 100%;
 }
 .header__text{
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 30px;  
 }
 .header__text h1{
@@ -97,6 +98,9 @@ li, a{
 #portfolio{
     padding: 40px 0;
 }
+/* .__subtitle{
+    background-color: green;
+} */
 .work__list{
     flex-direction:column;
     display: flex;
@@ -154,7 +158,8 @@ footer {
     /* color: #fff; */
     text-align: center;
     padding: 20px;
-    position: fixed;
-    bottom: 0;
+    /* position: fixed; */
+    /* bottom: 0; */
     width: 100%;
+    margin-top: 10px; /* Adjust margin-top to match the body padding */
 }
