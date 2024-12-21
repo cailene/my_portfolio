@@ -15,7 +15,9 @@ li, a{
     color: #454545;
     text-decoration: none;
 }
-
+img:hover{
+    transform: translateY(-10px);
+}
 
 /* -----------about---------- */
 #about{
@@ -98,6 +100,34 @@ li, a{
 #portfolio{
     padding: 40px 0;
 }
+.portfolio__list{
+    flex-direction:column;
+    display: flex;
+    align-content: space-between;
+}
+.portfolio__list img{
+    width: 50%;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.5s;
+}
+.work__evidence{
+    margin: 10px 0;
+}
+.portfolio__list h2{
+    padding-top: 20px;
+    font-size: 24px;
+}
+.portfolio__list p{
+    font-size: 16px;
+}
+
+/* ----------projects--------- */
+#projects{
+    padding: 40px 0;
+}
 /* .__subtitle{
     background-color: green;
 } */
@@ -114,12 +144,14 @@ li, a{
     width: 250px;
     height: 350px;
     margin-right: 15px;
+    justify-content: center;
     float: left;
     transition: transform 0.5s;
 }
-.work__list img:hover{
+/* .work__list img:hover{
     transform: translateY(-10px);
-}
+    this is at the top 
+} */
 .work__list h2{
     padding-top: 20px;
     font-size: 24px;
