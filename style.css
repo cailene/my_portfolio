@@ -114,8 +114,10 @@ img:hover{
     align-content: space-between;
 }
 .portfolio__list img{
-    width: 50%;
-    height: 350px;
+    /* width: 950px; */
+    /* height: 460px; */
+    width: 630px;
+    height: 305px;
     display: block;
     margin-left: auto;
     margin-right: auto;
